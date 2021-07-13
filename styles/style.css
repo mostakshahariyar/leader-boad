@@ -128,3 +128,31 @@ main{
 	 margin-left: 30.72px;
 	 padding: 5px;
   }
+
+  /* media Queray  */
+  /*------------------
+       phone 
+  ----------------- */
+  @media only screen and (max-width:688px) {
+	  .container{
+		  width: 100%;
+	  }
+	  .players, .blogs, .course{
+		  grid-template-columns: repeat(1, 1fr);
+		  
+	  }
+	  .player, .blog{
+		  flex-direction: column;
+	  }
+	  .course-baner{
+		  margin-bottom: 10px;
+		  margin-left: 5px;
+	  }
+  }
+  /* ipad or other deives  */
+  @media only screen and (min-width:688px) and (max-width:992px) {
+	  .container{
+		  width: 100%;
+	  }
+	
+  }
